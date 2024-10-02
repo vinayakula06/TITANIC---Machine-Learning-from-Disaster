@@ -48,4 +48,3 @@ Final accuracy using AdaBoost was 0.82.
 
 ---
 
-This version is more concise while retaining essential information.
