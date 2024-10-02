@@ -1,4 +1,3 @@
-Thanks for the clarification! Here's the corrected short version:
 
 ---
 
