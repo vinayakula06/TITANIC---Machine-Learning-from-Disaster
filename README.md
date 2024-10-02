@@ -1,3 +1,7 @@
+Thanks for the clarification! Here's the corrected short version:
+
+---
+
 # Titanic - Machine Learning from Disaster
 
 This repository contains a machine learning project using the Titanic dataset to predict passenger survival.
@@ -17,9 +21,9 @@ The data is sourced from the [Kaggle Titanic competition](https://www.kaggle.com
 
 ## Models
 
-Several models were tested, with Support Vector Machine (SVM) providing good accuracy:
+Several models were tested, with AdaBoost providing the best accuracy:
 - Logistic Regression
-- SVM
+- Support Vector Machine (SVM)
 - Random Forest
 - Gradient Boosting
 
@@ -47,4 +51,3 @@ Final accuracy using AdaBoost was 0.82.
 - Generalize survival models to other contexts
 
 ---
-
