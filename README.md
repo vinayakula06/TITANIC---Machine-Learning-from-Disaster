@@ -1,58 +1,51 @@
-Titanic - Machine Learning from Disaster
-This repository contains my implementation of the Titanic dataset, as part of a machine learning project to predict the survival of passengers using various models.
+# Titanic - Machine Learning from Disaster
 
-Project Overview
-The Titanic disaster is one of the most infamous shipwrecks in history. This project aims to use machine learning techniques to predict which passengers survived the sinking based on features such as age, sex, class, and other variables from the dataset.
+This repository contains a machine learning project using the Titanic dataset to predict passenger survival.
 
-The key tasks involved in this project include:
+## Overview
 
-Data cleaning and preprocessing
-Exploratory Data Analysis (EDA)
-Model training and evaluation
-Performance optimization
-Dataset
-The dataset used for this project is sourced from the Kaggle Titanic competition. It consists of the following files:
+The project aims to predict survival based on features like age, gender, and class. Key tasks include:
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Model training and evaluation
 
-train.csv: Contains data of passengers used for training the model.
-test.csv: Contains passenger data for making predictions.
-Models Used
-In this project, I experimented with several models to achieve better prediction accuracy:
+## Dataset
 
-Logistic Regression
-Support Vector Machine (SVM)
-Random Forest
-Gradient Boosting
-The Support Vector Machine (SVM) model helped achieve notable accuracy.
+The data is sourced from the [Kaggle Titanic competition](https://www.kaggle.com/c/titanic/data):
+- `train.csv`: For training the model
+- `test.csv`: For making predictions
 
-Installation
-To get started, follow these steps:
+## Models
 
-Clone the repository:
+Several models were tested, with Support Vector Machine (SVM) providing good accuracy:
+- Logistic Regression
+- SVM
+- Random Forest
+- Gradient Boosting
 
-bash
-Copy code
-git clone https://github.com/your-username/titanic-machine-learning.git
-Install the required dependencies:
+Final accuracy using AdaBoost was 0.82.
 
-bash
-Copy code
-pip install -r requirements.txt
-Run the notebook:
+## Installation
 
-bash
-Copy code
-jupyter notebook titanic-machine-learning.ipynb
-Usage
-The Jupyter notebook titanic-machine-learning.ipynb contains step-by-step code for loading the data, cleaning it, exploring relationships, and training machine learning models.
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/your-username/titanic-machine-learning.git
+   ```
+2. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the notebook:  
+   ```bash
+   jupyter notebook titanic-machine-learning.ipynb
+   ```
 
-To run the model on your local machine, open the notebook and follow the cells.
+## Future Work
 
-Results
-The final accuracy achieved using the AdaBoost model is 0.82. Future improvements could include more feature engineering and testing more advanced models.
+- Explore deep learning
+- Further tune hyperparameters
+- Generalize survival models to other contexts
 
-Future Work
-Explore deep learning techniques.
-Further tune hyperparameters for optimized results.
-Extend the analysis to more general survival models in different contexts.
+---
 
-
+This version is more concise while retaining essential information.
